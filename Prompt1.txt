@@ -1,0 +1,63 @@
+You are reviewing a management consulting style AutoML framework PPT.
+Your task is to STRICTLY refine the document so that it perfectly aligns with the following 3-part structure, with NO extra or unnecessary content:
+----------------------------------
+1) CURRENT STATE
+----------------------------------
+Ensure the document explicitly and clearly contains:
+- WHO is facing the problem
+- WHY the problem is relevant (business impact)
+- TRIGGER (what forces change)
+- EXPECTATION (clear measurable goals)
+Remove any redundant or overly technical details that are not needed at executive level.
+----------------------------------
+2) OBVIOUS GAPS
+----------------------------------
+Ensure the gap analysis strictly reflects:
+- ALL factors influencing output creation
+- Must be MECE (no overlaps, no misses)
+- Focus on SYSTEM-LEVEL factors only
+Remove:
+- Overly technical implementations
+- Tool-specific references (unless essential)
+Keep only:
+- Process
+- Technology
+- Explainability
+- Governance
+----------------------------------
+3) DESIRED TRUTH (OBI)
+----------------------------------
+This section MUST explicitly include 3 things:
+(A) MEASURABLE IMPACT
+- Quantified before vs after improvements
+(B) OUTPUT DEFINITION (MANDATORY ADDITION)
+Clearly define what the “output” of the system is made of:
+- Model artifact
+- Predictions
+- Explainability outputs (SHAP)
+- Model card
+- Metrics & logs
+(C) OUTPUT USAGE (MANDATORY ADDITION)
+Clearly explain:
+- Who uses the output
+- How it is used (decisioning, deployment, compliance)
+- What value it drives
+----------------------------------
+CRITICAL RULES
+----------------------------------
+- Remove any exaggerated claims
+- Remove unnecessary jargon
+- Keep language executive, precise, and factual
+- Do NOT add new concepts beyond scope
+- Ensure every statement is measurable or logically justified
+- Keep slides clean, structured, and consulting-grade
+- Ensure the tone is natural and human-like (not overly AI-generated or robotic)
+- Slightly vary sentence structure to improve readability while maintaining professionalism
+----------------------------------
+OUTPUT EXPECTATION
+----------------------------------
+Return a fully refined version of the PPT content:
+- Perfectly structured
+- No extra content
+- No missing required elements
+- Ready for executive presentation with zero further changes
